@@ -1,43 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dd883cc0-e3d2-443c-8434-f8360606dee9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/recfun_9867.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/recfun_9867.recfun_9867-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.scala-ide.sdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cafesat_2.11-0.01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/CourseraHttp.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/GradingFeedback.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/ProgFunBuild.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RecordingLogger.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RichJsValue.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/ScalaTestRunner.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/Settings.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/StyleChecker.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/buildSettings.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/buildPlugins.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/scalastyle_config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/scalastyle_config_reactive.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/common/package.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/recfun/Main.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/recfun/BalanceSuite.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/recfun/CountChangeSuite.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/recfun/PascalSuite.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dummy/common/package$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dummy/common/package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dummy/recfun/Main$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dummy/recfun/Main.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clean Code Ressume.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +43,24 @@
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Nacho/02 - Intercambio/02 - POSTECH 2024/SDT/Functional Programming Principles in Scala/cs332-assign/recfun&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Nacho\02 - Intercambio\02 - POSTECH 2024\SDT\Functional Programming Principles in Scala\cs332-assign" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="recfun.Main" />
@@ -120,6 +99,8 @@
       <updated>1726077207355</updated>
       <workItem from="1726077208664" duration="121000" />
       <workItem from="1726077354001" duration="77000" />
+      <workItem from="1726109570142" duration="3726000" />
+      <workItem from="1726505085373" duration="526000" />
     </task>
     <servers />
   </component>
