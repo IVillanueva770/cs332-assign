@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/funsets_1251.iml" filepath="$PROJECT_DIR$/.idea/modules/funsets_1251.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/funsets_1251.funsets_1251-build.iml" filepath="$PROJECT_DIR$/.idea/modules/funsets_1251.funsets_1251-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-funsets.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-funsets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-funsets.funsets-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-funsets.funsets-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-funsets.progfun-funsets.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-funsets.progfun-funsets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-funsets.progfun-funsets-build.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-funsets.progfun-funsets-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-funsets.recitations.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-funsets.recitations.iml" />
     </modules>
   </component>
 </project>

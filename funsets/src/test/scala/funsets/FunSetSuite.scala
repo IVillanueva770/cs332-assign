@@ -82,31 +82,68 @@ class FunSetSuite extends FunSuite {
   /**
    * This test is currently disabled (by using "ignore") because the method
    * "singletonSet" is not yet implemented and the test would fail.
-   * 
+   *
    * Once you finish your implementation of "singletonSet", exchange the
    * function "ignore" by "test".
    */
-  ignore("singletonSet(1) contains 1") {
-    
-    /**
-     * We create a new instance of the "TestSets" trait, this gives us access
-     * to the values "s1" to "s3". 
-     */
+  test("singletonSet(1) contains 1") {
     new TestSets {
-      /**
-       * The string argument of "assert" is a message that is printed in case
-       * the test fails. This helps identifying which assertion failed.
-       */
       assert(contains(s1, 1), "Singleton")
     }
   }
 
-  ignore("union contains all elements") {
+  test("union contains all elements") {
     new TestSets {
       val s = union(s1, s2)
       assert(contains(s, 1), "Union 1")
       assert(contains(s, 2), "Union 2")
       assert(!contains(s, 3), "Union 3")
+    }
+  }
+
+  test("intersect contains only common elements") {
+    new TestSets {
+      val s = intersect(s1, s2)
+      assert(!contains(s, 1), "Intersect 1")
+      assert(!contains(s, 2), "Intersect 2")
+    }
+  }
+
+  test("diff contains elements in s1 but not in s2") {
+    new TestSets {
+      val s = diff(s1, s2)
+      assert(contains(s, 1), "Diff 1")
+      assert(!contains(s, 2), "Diff 2")
+    }
+  }
+
+  test("filter contains elements that satisfy predicate") {
+    new TestSets {
+      val s = filter(s1, x => x == 1)
+      assert(contains(s, 1), "Filter 1")
+      assert(!contains(s, 2), "Filter 2")
+    }
+  }
+
+  test("forall checks all elements") {
+    new TestSets {
+      assert(forall(s1, x => x > 0), "Forall 1")
+      assert(!forall(s1, x => x < 0), "Forall 2")
+    }
+  }
+
+  test("exists checks if any element satisfies predicate") {
+    new TestSets {
+      assert(exists(s1, x => x == 1), "Exists 1")
+      assert(!exists(s1, x => x == 2), "Exists 2")
+    }
+  }
+
+  test("map transforms elements") {
+    new TestSets {
+      val s = map(s1, x => x * 2)
+      assert(contains(s, 2), "Map 1")
+      assert(!contains(s, 1), "Map 2")
     }
   }
 }
