@@ -35,4 +35,28 @@
 - Sometimes is ok to use comments to explain your intention if you're not using the best or more natural approach for something
 - Be careful with spreading misinformation on comments
 - Explain code that appears near your comment, use local context.
-## Chapter 5: Error Handling
+## Chapter 7: Error Handling
+- Its better to use exceptions rather than return codes (flags)
+- Try to separate the error handlers and the functional code:
+```
+public void _upper_function_(){
+	try{
+		try_function_(); //this instead of a catch for every error possible flag 
+	} catch (Error e){
+		logger(e)}
+}
+
+public void try_function_(){
+	...
+	//normal principal function behaviour
+	...
+	public getHandle() {
+		throw _new_exception_ //this works with the try in the upper function
+	}
+}
+```
+- Create informative error messages. Mention the operation that failed
+- Instead of writing repeated code for handling the type of the error, use a wrapper to centralize it.
+- Dont return null. Return either Special Cases or use a wrap class.
+- return Empty list > return Null.
+- Dont pass Null neither.

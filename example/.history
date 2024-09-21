@@ -1,0 +1,3 @@
+java -- version
+sbt run -v
+run -v
