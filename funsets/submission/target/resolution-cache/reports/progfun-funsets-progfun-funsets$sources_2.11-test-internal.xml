@@ -7,7 +7,7 @@
 		revision="1.0.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20240918034314"/>
+		date="20241007181451"/>
 	<dependencies>
 		<module organisation="com.storm-enroute" name="scalameter_2.11">
 			<revision name="0.6" status="release" pubdate="20140716225119" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalameter.github.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
@@ -292,7 +292,7 @@
 		<module organisation="com.ning" name="async-http-client">
 			<revision name="1.7.16" status="release" pubdate="20130521034045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="7097" time="0" location="C:\Users\Nacho\.ivy2\cache\com.ning\async-http-client\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ning/async-http-client/1.7.16/async-http-client-1.7.16.pom"/>
+				<metadata-artifact status="no" details="" size="7012" time="0" location="C:\Users\Nacho\.ivy2\cache\com.ning\async-http-client\ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ning/async-http-client/1.7.16/async-http-client-1.7.16.pom"/>
 				<caller organisation="progfun-funsets" name="progfun-funsets$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="1.0.0"/>
 				<artifacts>
 					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="496797" time="0" location="C:\Users\Nacho\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.7.16.jar">

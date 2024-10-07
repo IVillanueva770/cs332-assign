@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for recitations#recitations$sources_2.10;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies recitations#recitations$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59a220f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66880ed3
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -153,47 +153,47 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.4!scala-library.jar(src) (742ms)
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.4!scala-library.jar(src) (757ms)
 [debug] 		tried C:\Users\Nacho\.ivy2\local\org.scala-lang\scala-compiler\2.10.4\srcs\scala-compiler-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src) (742ms)
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src) (774ms)
 [debug] 		tried C:\Users\Nacho\.ivy2\local\org.scala-lang\scala-reflect\2.10.4\srcs\scala-reflect-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src) (714ms)
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src) (712ms)
 [debug] 		tried C:\Users\Nacho\.ivy2\local\org.scala-lang\jline\2.10.4\srcs\jline-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#jline;2.10.4!jline.jar(src) (839ms)
+[info] 	[SUCCESSFUL ] org.scala-lang#jline;2.10.4!jline.jar(src) (684ms)
 [debug] 		tried C:\Users\Nacho\.ivy2\local\org.fusesource.jansi\jansi\1.4\srcs\jansi-sources.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
-[info] 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.jar(src) (780ms)
-[debug] :: resolution report :: resolve 17ms :: artifacts dl 3825ms
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT compile produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-compile.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT runtime produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-runtime.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT test produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-test.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT provided produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-provided.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT optional produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-optional.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT compile-internal produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-compile-internal.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT runtime-internal produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-runtime-internal.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT test-internal produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-test-internal.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT plugin produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-plugin.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT sources produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-sources.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT docs produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-docs.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT pom produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-pom.xml
-[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT scala-tool produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-scala-tool.xml
-[debug] 	resolve done (17ms resolve - 3825ms download)
+[info] 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.jar(src) (715ms)
+[debug] :: resolution report :: resolve 9ms :: artifacts dl 3649ms
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT compile produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-compile.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT runtime produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-runtime.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT test produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-test.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT provided produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-provided.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT optional produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-optional.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT compile-internal produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-compile-internal.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT runtime-internal produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-runtime-internal.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT test-internal produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-test-internal.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT plugin produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-plugin.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT sources produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-sources.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT docs produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-docs.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT pom produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-pom.xml
+[debug] 	report for recitations#recitations$sources_2.10;0.1-SNAPSHOT scala-tool produced in C:\Nacho\02 - Intercambio\02 - POSTECH 2024\01 - Software Dessign Techniques\Functional Programming Principles in Scala\cs332-assign\funsets\recitations\target\resolution-cache\reports\recitations-recitations$sources_2.10-scala-tool.xml
+[debug] 	resolve done (9ms resolve - 3649ms download)
