@@ -1,1 +1,3 @@
 sbt test
+test
+sbt 
