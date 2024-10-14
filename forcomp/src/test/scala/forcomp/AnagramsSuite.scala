@@ -15,13 +15,13 @@ class AnagramsSuite extends FunSuite {
   }
 
   test("wordOccurrences: Robert") {
-    // Error en el orden de los caracteres, debería ser ('r', 2), ('o', 1), ('b', 1), ('e', 1), ('t', 1)
-    assert(wordOccurrences("Robert") === List(('b', 1), ('e', 1), ('o', 1), ('r', 1), ('t', 1)))
+    // Corregido: el orden de los caracteres es alfabético y la cantidad correcta de 'r'
+    assert(wordOccurrences("Robert") === List(('b', 1), ('e', 1), ('o', 1), ('r', 2), ('t', 1)))
   }
 
   test("sentenceOccurrences: abcd e") {
-    // Error: incorrecta frecuencia para 'e', debería ser 1
-    assert(sentenceOccurrences(List("abcd", "e")) === List(('a', 1), ('b', 1), ('c', 1), ('d', 1), ('e', 2)))
+    // Corregido: la frecuencia de 'e' es 1
+    assert(sentenceOccurrences(List("abcd", "e")) === List(('a', 1), ('b', 1), ('c', 1), ('d', 1), ('e', 1)))
   }
 
   test("dictionaryByOccurrences.get: eat") {
@@ -29,13 +29,13 @@ class AnagramsSuite extends FunSuite {
   }
 
   test("word anagrams: married") {
-    // Error en los anagramas esperados, 'admirer' no está, debería incluirlo
-    assert(wordAnagrams("married").toSet === Set("married"))
+    // Corregido: se incluye también 'admirer'
+    assert(wordAnagrams("married").toSet === Set("married", "admirer"))
   }
 
   test("word anagrams: player") {
-    // Error: falta un anagrama, debería incluir 'pearly'
-    assert(wordAnagrams("player").toSet === Set("parley", "player", "replay"))
+    // Corregido: se incluye también 'pearly'
+    assert(wordAnagrams("player").toSet === Set("parley", "pearly", "player", "replay"))
   }
 
   test("subtract: lard - r") {
@@ -51,7 +51,7 @@ class AnagramsSuite extends FunSuite {
 
   test("combinations: abba") {
     val abba = List(('a', 2), ('b', 2))
-    // Error: falta un subconjunto en las combinaciones
+    // Corregido: se incluye el subconjunto faltante
     val abbacomb = List(
       List(),
       List(('a', 1)),
@@ -60,7 +60,8 @@ class AnagramsSuite extends FunSuite {
       List(('a', 1), ('b', 1)),
       List(('a', 2), ('b', 1)),
       List(('b', 2)),
-      List(('a', 1), ('b', 2))
+      List(('a', 1), ('b', 2)),
+      List(('a', 2), ('b', 2))
     )
     assert(combinations(abba).toSet === abbacomb.toSet)
   }
@@ -72,7 +73,7 @@ class AnagramsSuite extends FunSuite {
 
   test("sentence anagrams: Linux rulez") {
     val sentence = List("Linux", "rulez")
-    // Error: la lista de anagramas no contiene algunos elementos correctos
+    // Corregido: se incluyen todos los anagramas posibles
     val anas = List(
       List("Rex", "Lin", "Zulu"),
       List("nil", "Zulu", "Rex"),
@@ -91,7 +92,9 @@ class AnagramsSuite extends FunSuite {
       List("Zulu", "Lin", "Rex"),
       List("Lin", "Zulu", "Rex"),
       List("Uzi", "Rex", "null"),
-      List("Zulu", "nil", "Rex")
+      List("Zulu", "nil", "Rex"),
+      List("rulez", "Linux"),
+      List("Linux", "rulez")
     )
     assert(sentenceAnagrams(sentence).toSet === anas.toSet)
   }
