@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forcomp_4921.iml" filepath="$PROJECT_DIR$/.idea/modules/forcomp_4921.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forcomp_4921.forcomp_4921-build.iml" filepath="$PROJECT_DIR$/.idea/modules/forcomp_4921.forcomp_4921-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-forcomp.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-forcomp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-forcomp.forcomp-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-forcomp.forcomp-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-forcomp.progfun-forcomp.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-forcomp.progfun-forcomp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-forcomp.progfun-forcomp-build.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-forcomp.progfun-forcomp-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-forcomp.recitations.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-forcomp.recitations.iml" />
     </modules>
   </component>
 </project>

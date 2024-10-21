@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-streams.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-streams.progfun-streams.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-streams.progfun-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-streams.progfun-streams-build.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-streams.progfun-streams-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-streams.recitations.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-streams.recitations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/progfun-streams.streams-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/progfun-streams.streams-sources.iml" />
+    </modules>
+  </component>
+</project>
